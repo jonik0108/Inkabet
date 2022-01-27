@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.D">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowColorDark="@color/darkColor"
+        app:neumorph_shadowColorLight="@color/lightColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Кудерметова и Мертенс вышли в 1/2 финала Australian Open в парном разряде"
+                    android:textColor="@color/orange"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ten1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Россиянка Вероника Кудерметова и бельгийка Элизе Мертенс вышли в полуфинал Открытого чемпионата Австралии по теннису в парном разряде.
+Во встрече 1/4 финала спортсменки, получившие третий номер посева, обыграли бельгийку Кирстен Флипкенс и испанку Сару Соррибес-Тормо со счетом 6:3, 6:4. Продолжительность матча составила 1 час 20 минут. В следующем раунде Australian Open Кудерметова и Мертенс сыграют с победительницами встречи Барбора Крейчикова/Катержина Синякова (Чехия) - Кэролайн Доулхайд (США)/Сторм Сэндерс (Австралия)."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

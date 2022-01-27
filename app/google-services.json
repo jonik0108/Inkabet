@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668805680321",
+    "project_id": "inkabet-b6a77",
+    "storage_bucket": "inkabet-b6a77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668805680321:android:c5c9749d50a378ef0ad840",
+        "android_client_info": {
+          "package_name": "com.abbasov.inkabet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668805680321-el8tet3629jn1ivspo35u8i8c95513e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU3UzIB1g_Mg_RfT-Wze65SGrihM_-Fg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668805680321-el8tet3629jn1ivspo35u8i8c95513e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

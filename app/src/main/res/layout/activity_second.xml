@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".Second"
+    android:orientation="vertical"
+    android:gravity="center">
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <soup.neumorphism.NeumorphTextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:text="INKABET"
+            android:fontFamily="@font/font1"
+            android:textSize="36sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/orange"
+            app:neumorph_shadowColorDark="@color/darkColor"
+            app:neumorph_shadowColorLight="@color/lightColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/foot"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:neumorph_backgroundColor="@color/orange"
+            app:neumorph_shadowColorLight="@color/lightColor"
+            app:neumorph_shadowColorDark="@color/darkColor"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ball"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <soup.neumorphism.NeumorphTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font1"
+                    android:text="FOOTBALL"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"
+                    app:neumorph_shadowColorLight="@color/lightColor"
+                    app:neumorph_shadowColorDark="@color/darkColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/tennis"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:neumorph_backgroundColor="@color/orange"
+            app:neumorph_shadowColorLight="@color/lightColor"
+            app:neumorph_shadowColorDark="@color/darkColor"
+            android:layout_margin="10dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/tennis"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <soup.neumorphism.NeumorphTextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TENNIS"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    app:neumorph_shadowColorLight="@color/lightColor"
+                    app:neumorph_shadowColorDark="@color/darkColor"
+                    android:fontFamily="@font/font1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/ski"
+
+            app:neumorph_backgroundColor="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:neumorph_shadowColorLight="@color/lightColor"
+            app:neumorph_shadowColorDark="@color/darkColor"
+            android:layout_margin="10dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ski"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <soup.neumorphism.NeumorphTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font1"
+                    android:text="SKI RACE"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    app:neumorph_shadowColorLight="@color/lightColor"
+                    app:neumorph_shadowColorDark="@color/darkColor"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+    </LinearLayout>
+
+
+</LinearLayout>

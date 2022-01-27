@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.D">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowColorDark="@color/darkColor"
+        app:neumorph_shadowColorLight="@color/lightColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Британский лыжник заявил, что навяжет борьбу Большунову и Клебо на Играх"
+                    android:textColor="@color/orange"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/skii" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Британский лыжник Джеймс Клагнет заявил, что не боится соревноваться с лидерами общего зачета Кубка мира норвежцем Йоханнесом Клебо и россиянином Александром Большуновым, и уверен, что сумеет навязать им борьбу на Олимпийских играх в Пекине.
+Клагнет вошел в состав олимпийской сборной Великобритании. В текущем сезоне он выступил на трех этапах Кубка мира, его лучшим результатом стало шестое место в финале командного спринта в паре с Эндрю Янгом. Клебо (1183 очка) возглавляет общий зачет Кубка мира, Большунов идет вторым (815 очков)."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:text="Раньше я видел в этих парнях кумиров, а теперь соревнуюсь с ними. Я очень уважаю их. Они действительно пытаются меня запугать, потому что я за последние несколько лет добился значительных улучшений в своих результатах, но я их не боюсь. Думаю, что они вообще забывают о том, что мы тоже тут есть, и в этом наша сила. Они не видят в нас соперников, но тем лучше для нас, потому что мы можем победить их, будучи аутсайдерами, - цитирует Клагнета Eurosport." />
+
+            </LinearLayout>
+        </ScrollView>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

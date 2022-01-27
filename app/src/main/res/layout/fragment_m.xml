@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.H">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowColorDark="@color/darkColor"
+        app:neumorph_shadowColorLight="@color/lightColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Тренер норвежских лыжников обзвонил запасных из-за коронавируса в сборной"
+                    android:textColor="@color/orange"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ski3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Тренер сборной Норвегии по лыжным гонкам Эйрик Мюр Носсум связался со спортсменами, вошедшими в состав национальной олимпийской команды в качестве запасных, и попросил их быть готовыми к возможной поездке на Олимпийские игры в Пекин, сообщает NRK.
+Носсум отказался называть имена спортсменов, кому он звонил, но NRK сообщает, что лыжники Мартин Лёвстрём Ниенге, Дидрик Тёнсет подтвердили, что с ними связывался Носсум. Также о звонке от тренера Арильда Монсена, заразившегося коронавирусом по прибытии с тренировочного сбора на итальянском высокогорном курорте Зайзер Альм, сообщил тренер Томаса Хелланда Ларсена."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:text="Арильд ему (Ларсену) звонил. Ходят разговоры о том, что должны быть готовы два запасных спринтера и два запасных марафонца, - сказал тренер Ула Квисле." />
+
+            </LinearLayout>
+        </ScrollView>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

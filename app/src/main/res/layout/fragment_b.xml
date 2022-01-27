@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.B"
+
+    android:orientation="vertical">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowColorDark="@color/darkColor"
+        app:neumorph_shadowColorLight="@color/lightColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Хендрикс перешел из Спартака в Фейенорд на правах аренды"
+                    android:textColor="@color/orange"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xen"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Московский Спартак и Фейенорд договорились о переходе футболиста Йоррита Хендрикса в клуб из Роттердама, сообщается на сайте красно-белых.
+Хендрикс будет выступать за Фейенорд на правах аренды до конца июня 2023 года. Соглашение включает право выкупа игрока.
+Хендрикс перешел в Спартак из ПСВ (Эйндховен) в январе 2021 года. Контракт полузащитника с московским клубом истекает летом 2024 года. В составе красно-белых он провел 22 матча."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<soup.neumorphism.NeumorphCardView
+    android:layout_margin="50dp"
+    app:neumorph_backgroundColor="@color/white"
+    app:neumorph_shadowColorLight="@color/lightColor"
+    app:neumorph_shadowColorDark="@color/darkColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.D">
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowColorDark="@color/darkColor"
+        app:neumorph_shadowColorLight="@color/lightColor">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Даниил Медведев вышел в полуфинал Australian Open"
+                    android:textColor="@color/orange"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ten" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Вторая ракетка мира россиянин Даниил Медведев пробился в полуфинал Открытого чемпионата Австралии по теннису, который проходит в Мельбурне.
+
+Медведев, посеянный под вторым номером, в 1/4 финала обыграл канадца Феликса Оже-Альяссима (9-й номер посева) со счетом 6:7 (4:7), 3:6, 7:6 (7:2), 7:5, 6:4. Теннисисты провели на корте 4 часа 42 минуты.
+
+В четвертом сете при счете 5:4 в пользу канадца Медведев на своей подаче отыграл матчбол. За встречу россиянин подал 15 эйсов, совершил девять двойных ошибок, активно выиграл 49 мячей, допустил 53 невынужденные ошибки, реализовал три из пяти брейк-пойнтов. Статистика Оже-Альяссима: 18 эйсов, четыре двойные ошибки, 64 активно выигранных мяча, 75 невынужденных ошибок, реализация брейк-пойнтов два из 11.
+
+Медведев в начале января уже обыгрывал 23-летнего Оже-Альяссима в полуфинале командного турнира Кубка Ассоциации теннисистов-профессионалов (ATP Cup) в Сиднее — 6:4, 6:0. Общий счет в личных встречах стал 4:0 в пользу россиянина."
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:text="Медведев — действующий победитель Открытого чемпионата США, обладатель Кубка Дэвиса-2021 в составе сборной России. Всего на его счету 13 титулов ATP в одиночном разряде. За свою карьеру россиянин заработал более 22 миллионов долларов призовых." />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
